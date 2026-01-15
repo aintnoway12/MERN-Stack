@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "lodash": "^4.17.21"
+  },
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "Sample Project for Full Stack Development",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aintnoway12/MERN-Stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aintnoway12/MERN-Stack/issues"
+  },
+  "homepage": "https://github.com/aintnoway12/MERN-Stack#readme"
+}

@@ -1,11 +1,13 @@
 const http = require('http');
 const fs = require('fs'); // to connect with html file  
+const _ = require('lodash'); //functions not include in pure js 
 
 const server = http.createServer((req,res) => {
     let filename;
     switch (req.url) {
 
         case '/':
+            console.log('home page requested');
             filename = "home.html";
             res.statusCode = 200;
             break;
